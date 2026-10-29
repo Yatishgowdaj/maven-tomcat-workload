@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/3.9.9"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/3.9.9 https://maven.apache.org/xsd/maven-3.9.9.xsd">
+
+    <modelVersion>3.9.9</modelVersion>
+
+    <groupId>com.avva</groupId>
+    <artifactId>maven-tomcat-workload</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <properties>
+        <maven.compiler.release>17</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>maven-tomcat-workload</finalName>
+    </build>
+
+</project>
